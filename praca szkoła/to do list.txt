@@ -1,0 +1,6 @@
+to do:
+-Rejestracja / logowanie
+-Pokaz liste uzytkowników / dodaj do znajomych
+-Obrazek / like
+-Dekoder / obrazków / muzyki
+-Tabele relacyjne / znajomi / projekty do twórców
