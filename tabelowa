@@ -1,0 +1,26 @@
+var ref = { 
+    0: 'B',
+    1: 'A',
+    2: 'G',
+    3: 'F',
+    4: 'E',
+    5: 'D',
+    6: 'C',
+  };
+function create_table()
+{
+    var tbl = document.createElement("table");
+    for(let i; i < 12; i++){
+        var row = document.createElement("tr");
+    for(let x; x < 7; x++){
+        var cell = document.createElement("td");
+        var button = document.createElement("Button");
+        button.id = ref(x) + i;
+        button.style.backgroundColor = "black";
+        button.onclick = FUNKCJA DO  KOLORU;
+        cell.appendChild(button);
+        row.appendChild(cell);
+    }
+    tbl.appendChild(row);
+    }
+    }
