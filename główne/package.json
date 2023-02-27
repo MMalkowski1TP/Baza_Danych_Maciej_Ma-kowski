@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "midi-writer-js": "^2.1.4",
+    "tone": "^14.7.77"
+  }
+}
